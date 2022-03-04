@@ -1,18 +1,32 @@
 body{
     background-color:rosybrown;
+    font-family: sans-serif;
+    margin: 0;
 }
-img{
-    height: 120px;
+header{
+    background-color: rgb(113, 198, 201);
+    padding: 20px 10%;
+}
+.foto_moje{
+    width: 150px;
     border-radius: 50%;
-    padding: 15px;
+    margin: 20px;
     float: left;
+    border-style: groove;
+}
+.hlavicka{
+    background-color: rgb(113, 198, 201);
 }
 h1{
-    color:blue;
+    color:whitesmoke;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #000;
 }
 h2{
-    color:red;
-    text-align: center;
+    color:rgb(70, 193, 197);
+    font-size: 35px;
+    padding: 0 5%;
+    text-shadow: 1px 1px 1px #000;
 }
 .kategorie{
     vertical-align: top;
@@ -20,42 +34,62 @@ h2{
     font-weight: bold;
     width: 35%;
     padding-top: 15px;
+    font-style: italic;
+    color: rgb(19, 65, 65);
 }
 .pes{
     font-weight: bold;
     text-align: center;
+    color: rgb(19, 65, 65);
 }
 li{
     list-style-type: square;
     vertical-align: top;
 }
 table{
+    width: 100%;
     border-bottom: 10px;
-    border-radius: 2%;
+    background-color: rgb(189, 243, 227);
+    padding: 0px 5%;
+    color: rgb(19, 65, 65);
 }
+
 .znalosti{
     background-color: rgb(175, 238, 199);
-    padding: 40px 15%;
+    padding: 20px 10%;
 }
 .zajmy{
-    background-color: bisque;
-    padding: 40px 15%;
+    background-color: rgb(140, 231, 193);
+    padding: 20px 10%;
 }
 .licha{
-    background-color: rgb(144, 192, 61);
-    padding: 10px 0;
+    background-color: rgb(94, 214, 184);
+    padding: 10px 5%;
+    text-align: justify;
+    line-height: 1.5;
+    overflow: auto;
 }
 .suda{
-    background-color: rgb(238, 198, 98);
-    padding: 10px 0;
+    background-color: rgb(98, 238, 161);
+    padding: 10px 5%;
+    text-align: justify;
+    line-height: 1.5;
     }
-
-header{
-    margin: 40px 15%;
-    text-align: center;
-    background-color: rgb(199, 110, 110);
+.foto_pes{
+    width: 25%;
+    border-radius: 5%;
+    margin: 0px 0px 0px 20px;
+    float: right;
 }
+.foto_hrad{
+    width: 25%;
+    border-radius: 5%;
+    margin: 10px 20px 0px 0px;
+    float: left;
+}
+
 footer{
-    margin: 40px 15%;
-    background-color: darkgray;
+    background-color: rgb(135, 172, 189);
+    padding: 20px 15%;
+    font-style: italic;
 }
